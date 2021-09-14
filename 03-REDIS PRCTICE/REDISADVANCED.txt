@@ -40,7 +40,7 @@ STREAM:- It Form Different Pipelines in redis
     Getting of Stream:-
 
  
-      XREAD COUNT 200 STREAMS mystream 0   //inka mtlb hai mystream me 0 index se 200 tk ko aa jao
+      XREAD COUNT 200 STREAMS mystream 0   //iska mtlb hai mystream me 0 index se 200 tk ko aa jao
 
        XREAD COUNT 200 STREAMS mystream 10002-0  //10002-0 ke baad jitni bhi row hai show krdo
 
