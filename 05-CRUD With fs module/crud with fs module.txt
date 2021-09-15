@@ -23,7 +23,8 @@ Append  in file :-
 
 read the file:-
     fs.readFileSync("day_1/hello.txt");
-        Now you will get the buffer (buffer is for better performance like it break into some code and you will read it line by line.)
+        Now you will get the buffer (buffer is for better performance like it break into some code and you will read it line by
+ line.)
      
     To read the buffer line we must use "utf-8" it convert it into english :-
       fs.readFileSync("day_1/hello.txt");
